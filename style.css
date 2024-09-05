@@ -1,0 +1,51 @@
+body {
+  background-color: turquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#outer {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+}
+#upper {
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 5px 80px;
+}
+#inputBar {
+  font-size: 20px;
+  margin: 15px;
+}
+
+#inputBar {
+  height: 50px;
+  width: 400px;
+  position: relative;
+  left: 40px;
+  border-radius: 10px;
+  border: 5px solid turquoise;
+}
+#submitBtn {
+  background-color: turquoise;
+  border: none;
+  color: white;
+  margin: 50px;
+  padding: 8px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+#hintPara,
+#guessCount {
+  font-size: 22px;
+  text-align: center;
+}
+.correctGuess {
+  color: green;
+}
+.incorrectGuess {
+  color: red;
+}
